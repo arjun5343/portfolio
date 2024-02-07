@@ -17,7 +17,7 @@ const Home = () => {
                         <h1 className='font-semibold md:text-5xl my-4 text-3xl'>ARJUN V V</h1>
                         <p className='md:w-96'>Freelance UI designer, Fullstack developer. I create seamless web experiences for end-users.</p>
                         <div className='mt-5'>
-                        <a href="resume.pdf">
+                        <a href="res.pdf">
 
                             <button className='btn transition-all duration-500 bg-primary py-2 px-4 rounded text-white hover:bg-white hover:text-primary'>Resume</button> 
                             </a>

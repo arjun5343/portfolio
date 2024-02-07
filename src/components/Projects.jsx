@@ -1,24 +1,28 @@
 import React from "react";
 
+
 const Projects = () => {
   const projects = [
     {
+
       title: "RESTAURANT MANAGEMENT SYSTEM AND CHATBOT",
       description:
-        "The robust system is designed to streamline operations, enhance customer experience, and provide restaurateurs with comprehensive tools for effective management.",
-      photo: "/src/assets/projects/rms.jpeg",
+        "The robust system is designed to streamline operations,enhance customer experience,and provide restaurateurs with comprehensive tools for effective management.",
+      photo: "./rms.jpeg",
     },
     {
       title: "𝗕𝗟𝗢𝗖𝗞𝗖𝗛𝗔𝗜𝗡 𝗕𝗔𝗦𝗘𝗗 𝗦𝗬𝗦𝗧𝗘𝗠 𝗙𝗢𝗥 𝗘𝗩 𝗖𝗛𝗔𝗥𝗚𝗜𝗡𝗚 𝗦𝗧𝗔𝗧𝗜𝗢𝗡𝗦",
       description:
         " Developing a groundbreaking solution for the electric vehicle industry — a Blockchain-Enabled EV Charging Station Management System.System helps user to book the slot efficently and find the near by charging centre with real-time enivornment.",
-      photo: "/src/assets/projects/blockchain.jpg",
+      photo: "./blockchain.jpg",
     },
     {
+
       title: "E-COMMMERCE WEB APPLICATION",
       description:
-        "I have successfully implemented the E-Commerce Web Application for online shopping. This application has not only facilitated online sales but has also contributed to increased customer satisfaction and enhanced brand visibility.",
-      photo: "/src/assets/projects/ecm.jpeg",
+        "I have successfully implemented the E-Commerce Web Application for online shopping.This application has not only facilitated online sales but has also contributed to increased customer satisfaction and enhanced brand visibility.",
+      photo: "./ecm.jpeg",
+
     },
   ];
   return (
@@ -45,7 +49,7 @@ const Projects = () => {
                 rel="noreferrer"
                 className="mb-4"
               >
-                <img src={project.photo} alt={project.title}  />
+                <img src={project.photo} alt={project.title} />
               </a>
               <h3 className="text-primary font-bold text-lg ">
                 {project.title}
@@ -53,14 +57,14 @@ const Projects = () => {
               <p className=" text-white mt-1 text-justify">{project.description}</p>
               <div className="mt-5 text-justify">
                 <a href="#contact">
-                <button className="btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary">
-                  Contact me
-                </button>
+                  <button className="btn transition-all duration-500 bg-primary py-2 px-6 rounded text-white hover:bg-white hover:text-primary">
+                    Contact me
+                  </button>
                 </a>
                 <a href="https://github.com/arjun5343">
-                <button className="btn outline py-1.5 px-9 rounded border-none ml-5 text-white ">
-                  Git Hub
-                </button>
+                  <button className="btn outline py-1.5 px-9 rounded border-none ml-5 text-white ">
+                    Git Hub
+                  </button>
                 </a>
               </div>
             </div>

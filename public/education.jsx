@@ -1,26 +1,28 @@
 import React from "react";
-
+import e1 from "/src/assets/projects/ktu.jpg"
+import e2 from "/src/assets/projects/MEES.jpeg"
+import e3 from "/src/assets/projects/MET.jpg"
 
 const education = () => {
   const education = [
     {
-      title: "Jawaharlal College of Engineering and Technology",
+      title: "Jawaharlal College of Engineering and Technology (JCET)",
       description:
         "Bachelor's Degree Computer Science 2019-23 Batch",
-      photo: "./ktu.jpg",
+      photo:{e1},
     },
     {
       title: "MESHSS",
       description:
-        "HIGHER SECONDARY EDUCATION BOARD 2017-2019 Batch. PERCENTAGE:79.6%",
-      photo: "./MEES.jpeg",
+        "HIGHER SECONDARY EDUCATION BOARD 2017-2019 BATCH PASSOUT STUDENT PERCENTAGE:79.6%",
+      photo:{e2},
     },
     {
       title: "METEMHSS",
       description:
-        "HIGH SCHOOL EDUCATION PASSOUT STUDENT FROM KERALA BOARD OF PUBLIC EXAMINATIONS 2016-2017 BATCH. PERCENTAGE:100%.",
-      photo: "./MET.jpg",
-    },
+        "HIGH SCHOOL EDUCATION KERALA- 2017 BATCH.This stage in my academic journey is not just about mastering subjects but also about discovering interests.",
+      photo:{e3},
+    }, 
   ];
   return (
     <div className="md:px-10 px-7 my-8" id="education">
@@ -28,7 +30,7 @@ const education = () => {
         Education Qualification:
       </h1>
       <p className="my-3 text-white  leading-[2]">
-        As an individual passionate about continuous learning and professional development, I have cultivated a solid foundation through my educational qualifications. My academic journey reflects not only a commitment to excellence but also a thirst for acquiring knowledge that can be applied meaningfully in real-world.
+      As an individual passionate about continuous learning and professional development, I have cultivated a solid foundation through my educational qualifications. My academic journey reflects not only a commitment to excellence but also a thirst for acquiring knowledge that can be applied meaningfully in real-world.
       </p>
       {/* featured education */}
 
@@ -51,7 +53,7 @@ const education = () => {
                 {education.title}
               </h3>
               <p className=" text-white mt-1 text-justify">{education.description}</p>
-
+              
             </div>
           );
         })}
